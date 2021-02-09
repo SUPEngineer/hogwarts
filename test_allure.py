@@ -1,6 +1,6 @@
 import allure
 
-TEST_LINK = 'http://www,baidu.com'
+TEST_LINK = 'http://www.baidu.com'
 @allure.testcase(TEST_LINK, 'testLink链接1')
 @allure.feature("登陆模块")
 class TestLogin:
