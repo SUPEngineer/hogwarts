@@ -1,6 +1,6 @@
 import allure
 
-TEST_LINK = 'http://testlink.360es.cn/login.php'
+TEST_LINK = 'http://www,baidu.com'
 @allure.testcase(TEST_LINK, 'testLink链接1')
 @allure.feature("登陆模块")
 class TestLogin:
@@ -37,7 +37,7 @@ class TestSearch:
 
     @allure.story("插入纯文本")
     def test_attach_text(self):
-        allure.attachgit("纯文本", attachment_type=allure.attachment_type.TEXT)
+        allure.attach("纯文本", attachment_type=allure.attachment_type.TEXT)
 
 
     @allure.story("插入HTML")
