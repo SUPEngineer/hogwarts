@@ -1,0 +1,32 @@
+add:
+  datas:
+    - [ 1, 1, 2 ]
+    - [ 10, 20, 30 ]
+    - [ 1, 0, 1 ]
+    - [ 0.1,0.2,0.3 ]
+    - [ -1,1,0 ]
+  ids:
+    - 'int'
+    - 'bignum'
+    - 'zero'
+    - 'minus'
+    - 'result0'
+
+div:
+  normal:
+    datas:
+      - [2,1,2]
+      - [100,50,2]
+      - [0,1,0]
+      - [0.2,0.1,2]
+    ids:
+      - 'int'
+      - 'bignum'
+      - 'zero'
+      - 'minus'
+  error:
+    datas:
+      - [1,0,1]
+    ids:
+      - 'result0'
+
