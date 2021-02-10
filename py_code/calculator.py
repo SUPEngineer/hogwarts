@@ -5,6 +5,4 @@ class Caculator:
         return round(a + b, 3)
 
     def div(self, a, b):
-        if b == 0:
-            return "除数为0"
         return a / b
