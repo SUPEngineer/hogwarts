@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pytest-encode
+Version: 1.0
+Summary: set your encoding
+Home-page: https://github.com/xxx/pytest-encode
+Author: qiulingfeng
+Author-email: 2298294181@qq.com
+License: proprietary
+Description: Show Chinese for your mark.parametrize().
+Keywords: pytest,py.test,pytest_encode
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.8
